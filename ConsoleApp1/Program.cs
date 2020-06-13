@@ -28,7 +28,8 @@ public class test
     {
         Player p1 = new Player("LingQi");
         p1.GetInfomation();
-        Player p2 = new Player("WangZhi");
+        Player p2 = new Player("WangZhi");  //comment
+        //comment
         Console.WriteLine(Player.CountOfPlayer);
     }
 }
